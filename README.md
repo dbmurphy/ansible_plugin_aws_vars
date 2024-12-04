@@ -77,9 +77,9 @@ Example in inventory:
 all:
   hosts:
     aws-host-1:
-      Role: web
+      Role: mysql
       Environment: prod
-      Cluster: frontend
+      Cluster: monolith
     local-host:
       skip_aws_vars: true  # AWS vars plugin will skip this host
 ```
